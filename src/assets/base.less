@@ -1,0 +1,171 @@
+@import './weui.less';
+@import './app.less';
+
+.df{
+  display: flex;
+}
+.jcac{
+  justify-content: center;
+  align-items: center;
+}
+.jc{
+  justify-content: center
+}
+.ac{
+  align-items: center;
+}
+// 自己补充的css
+.ai{
+  -webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+}
+.jsutify{
+  -webkit-box-pack:justify;
+-webkit-justify-content:space-between;
+-ms-flex-pack:justify;
+justify-content:space-between;
+}
+.fac{
+  -webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+}
+.fpj{
+  -webkit-box-pack:justify;
+-webkit-justify-content:space-between;
+-ms-flex-pack:justify;
+justify-content:space-between;
+}
+.fpe{
+  -webkit-box-pack:end;
+-webkit-justify-content:flex-end;
+-ms-flex-pack:end;
+justify-content:flex-end;
+}
+.line_xi_after {
+  position: relative;
+}
+.line_xi_after:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  height: 1px;
+  content: "";
+  -webkit-transform: scaleY(0.2);
+  transform: scaleY(0.2);
+  background-color: #c0c0c0;
+}
+.null-title {
+  font-size: 12px;
+  padding: 15px 0px;
+  color: #888;
+  text-align: center;
+}
+.null-bg .null-img {
+  width: 150px;
+  padding-top: 50px;
+  display: block;
+  margin:auto;
+}
+.fw {
+  -webkit-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.fs {
+  align-content: space-around;
+}
+.btn {width:90%;
+  height:92/100rem;
+  line-height:92/100rem;
+  background:#61d8d0;
+  border-radius:46/100rem;
+  margin:58/100rem auto;
+  font-size:34/100rem;
+  color:rgba(255, 255, 255, 1);
+  text-align:center;
+  outline:none;
+}
+.btn-disabled {
+  opacity:0.2;
+  -moz-opacity:0.2;
+  -khtml-opacity:0.2;
+  }
+  
+.cell {
+background:rgba(255, 255, 255, 1);
+margin-top:20/100rem;
+padding:0 20/100rem;
+position:relative;
+}
+.cell .cell-input {
+height:100/100rem;
+border-bottom:1px #f2f2f2 solid;
+font-size:28/100rem;
+color:rgba(51, 51, 51, 1);
+line-height:100/100rem;
+display:flex;
+position:relative;
+}
+.cell .cell-input span {
+margin:0 25/100rem;
+}
+.cell .cell-input input {
+width:70%;
+height:100%;
+border:none;
+}
+.shadow {
+width:100%;
+height:100%;
+background:rgba(0, 0, 0, 0.5);
+position:fixed;
+top:0;
+left:0;
+z-index:1111;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.arrow-left {
+  width:12/100rem;
+  height:24/100rem;
+  background:url("https://img.xiepinhui.com.cn/mobile/wallet/ico_arrow.png") no-repeat center;
+  background-size:100% 100%;
+  position:absolute;
+  top:50%;
+  right:20/100rem;
+  margin-top:-12/100rem;
+  
+  }
+  
+// 自己补充的css end
+div{
+  box-sizing: border-box;
+}
+html,body,.wrap{
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+}
+#app{
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
